@@ -69,7 +69,7 @@ usability perspective?
 - [ ] Is the API/UI intuitive to use?
 
 ## Ethics and Morality
-- [] Does this code change introduce any ethical or moral concerns?
+- [ ] Does this code change introduce any ethical or moral concerns?
 
 ## Testing and Testability
 - [ ] Is the code testable?
