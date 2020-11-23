@@ -68,6 +68,9 @@ usability perspective?
 - [ ] Is the proposed solution (UI) accessible?
 - [ ] Is the API/UI intuitive to use?
 
+## Ethics and Morality
+- [] Does this code change introduce any ethical or moral concerns?
+
 ## Testing and Testability
 - [ ] Is the code testable?
 - [ ] Does it have enough automated tests
