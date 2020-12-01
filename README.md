@@ -70,6 +70,7 @@ usability perspective?
 
 ## Ethics and Morality
 - [ ] Does this code change introduce any ethical or moral concerns?
+- [ ] Does this code change introduce any algorithm, AI  or machine learning bias?
 
 ## Testing and Testability
 - [ ] Is the code testable?
