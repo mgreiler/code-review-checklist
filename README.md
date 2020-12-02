@@ -69,8 +69,22 @@ usability perspective?
 - [ ] Is the API/UI intuitive to use?
 
 ## Ethics and Morality
-- [ ] Does this code change introduce any ethical or moral concerns?
-- [ ] Does this code change introduce any algorithm, AI  or machine learning bias?
+- [ ] Does this change make use of user data in a way that 
+might raise privacy concerns?
+- [ ] Does the change exploit behavioral patterns or human
+weaknesses? 
+- [ ] Might the code, or what it enables, lead to mental 
+and physical harm for (some) users?
+- [ ] If the code adds or alters ways in which people 
+interact with each other, are appropriate measures
+in place to prevent/limit/report harassment or abuse?
+- [ ] Does this change lead to an exclusion of a certain
+group of people or users?
+- [ ] Does this code change introduce any algorithm, 
+AI  or machine learning bias?
+- [ ] Does this code change introduce any 
+gender/racial/political/religious/ableist bias?
+
 
 ## Testing and Testability
 - [ ] Is the code testable?
