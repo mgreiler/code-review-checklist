@@ -80,10 +80,12 @@ interact with each other, are appropriate measures
 in place to prevent/limit/report harassment or abuse?
 - [ ] Does this change lead to an exclusion of a certain
 group of people or users?
+- [ ] Does this code change introduce unjust impact on people, 
+particularly those related to sensitive characteristics such as
+race, ethnicity, gender, nationality, income, sexual orientation, ability, 
+and political or religious belief?
 - [ ] Does this code change introduce any algorithm, 
 AI  or machine learning bias?
-- [ ] Does this code change introduce any 
-gender/racial/political/religious/ableist bias?
 
 
 ## Testing and Testability
