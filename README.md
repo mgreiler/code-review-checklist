@@ -1,8 +1,7 @@
 # Code Review Checklist
 
 ## Implementation
-- [ ] Does this code change do what it is supposed to
-do?
+- [ ] Does this code change do what it is supposed to do?
 - [ ] Can this solution be simplified?
 - [ ] Does this change add unwanted compile-time or run-time dependencies?
 - [ ] Was a framework, API, library, service used that should not be used?
@@ -115,8 +114,7 @@ flow?
 better?
 - [ ] Would more comments make the code more
 understandable?
-- [ ] Could some comments be removed by making
-- [ ] the code itself more readable?
+- [ ] Could some comments be removed by making the code itself more readable?
 - [ ] Is there any commented out code?
 
 ## Experts Opinion
