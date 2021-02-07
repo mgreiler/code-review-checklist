@@ -37,8 +37,7 @@ other parts of the system, or backward
 compatibility?
 
 ## Security and Data Privacy
-- [ ] Does this code open the software up for
-security vulnerabilities?
+- [ ] What security vulnerabilities is this code susceptible to?
 - [ ] Are authorization and authentication handled
 in the right way?
 - [ ] Is sensitive data like user data, credit card
