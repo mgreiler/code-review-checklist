@@ -115,7 +115,7 @@ understandable?
 - [ ] Could some comments be removed by making the code itself more readable?
 - [ ] Is there any commented out code?
 
-## Experts Opinion
+## Experts' Opinion
 - [ ] Do you think a specific expert, like a security
 expert or a usability expert, should look over
 the code before it can be committed?
