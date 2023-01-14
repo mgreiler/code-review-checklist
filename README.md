@@ -4,14 +4,14 @@
 - [ ] Does this code change accomplish what it is supposed to do?
 - [ ] Can this solution be simplified?
 - [ ] Does this change add unwanted compile-time or run-time dependencies?
-- [ ] Was a framework, API, library, service used that should not be used?
-- [ ] Was a framework, API, library, service not used that could improve the solution?
+- [ ] Is a framework, API, library, or service used that should not be used?
+- [ ] Could an additional framework, API, library, or service improve the solution?
 - [ ] Is the code at the right abstraction level?
 - [ ] Is the code modular enough?
-- [ ] Would you have solved the problem in a different way that is substantially better in terms of the code’s maintainability, readability, performance, security?
-- [ ] Does similar functionality already exist in the codebase? If so, why isn’t this functionality reused?
+- [ ] Can a better solution be found in terms of maintainability, readability, performance, or security?
+- [ ] Does similar functionality already exist in the codebase? If yes, why isn’t it reused?
 - [ ] Are there any best practices, design patterns or language-specific patterns that could substantially improve this code? 
-- [ ] Does this code follow Object-Oriented Analysis and Design Principles, like the Single Responsibility Principle, Open-Close Principle, Liskov Substitution Principle, Interface Segregation, Dependency Injection?
+- [ ] Does this code adhere to Object-Oriented Analysis and Design Principles, like the Single Responsibility Principle, Open-Close Principle, Liskov Substitution Principle, Interface Segregation, or Dependency Injection?
 
 ## Logic Errors and Bugs
 - [ ] Can you think of any use case in which the
@@ -29,37 +29,32 @@ written in a way that allows for easy
 debugging?
 
 ## Dependencies
-- [ ] If this change requires updates outside of the
-code, like updating the documentation,
-configuration, readme files, was this done?
-- [ ] Might this change have any ramifications for
-other parts of the system, or backward
-compatibility?
+- [ ] Were updates to documentation, configuration, or readme files made as required by this change?
+- [ ] Are there any potential impacts on other parts of the system or backward compatibility?
 
 ## Security and Data Privacy
-- [ ] What security vulnerabilities is this code susceptible to?
-- [ ] Are authorization and authentication handled
-in the right way?
+- [ ] Does the code introduce any security vulnerabilities?
+- [ ] Are authorization and authentication handled correctly?
 - [ ] Is (user) input validated, sanitized, and escaped 
 to prevent security attacks such as cross-site 
-scripting, SQL injection?
-- [ ] Is sensitive data like user data, credit card
+scripting or SQL injection?
+- [ ] Is sensitive data like user data or credit card
 information securely handled and stored?
 - [ ] Is the right encryption used?
-- [ ] Does this code change reveal some secret
+- [ ] Does this code change reveal any secret
 information like keys, passwords, or usernames?
 - [ ] Is data retrieved from external APIs or libraries
-checked accordingly?
+checked for security issues?
 
 ## Performance
 - [ ] Do you think this code change will impact
 system performance in a negative way?
 - [ ] Do you see any potential to improve the
-performance of the code?
+performance of the code significantly?
 
 
 ## Usability and Accessibility
-- [ ] Is the proposed solution well designed from a
+- [ ] Is the proposed solution well-designed from a
 usability perspective?
 - [ ] Is the API well documented?
 - [ ] Is the proposed solution (UI) accessible?
@@ -87,40 +82,37 @@ AI  or machine learning bias?
 
 ## Testing and Testability
 - [ ] Is the code testable?
-- [ ] Does it have enough automated tests
-(unit/integration/system tests)?
-- [ ] Do the existing tests reasonably cover the code
-change?
+- [ ] Has the code change
+- [ ] Have automated tests been added, or have related ones been updated to cover the change?
+- [ ] Do the existing tests reasonably cover the code change (unit/integration/system tests)? 
 - [ ] Are there some test cases, input or edge cases
 that should be tested in addition?
 
 ## Readability
-- [ ] Was the code easy to understand?
+- [ ] Is the code easy to understand?
 - [ ] Which parts were confusing to you and why?
 - [ ] Can the readability of the code be improved by
 smaller methods?
 - [ ] Can the readability of the code be improved by
-different function/method or variable names?
+different function, method or variable names?
 - [ ] Is the code located in the right
 file/folder/package?
 - [ ] Do you think certain methods should be
 restructured to have a more intuitive control
 flow?
 - [ ] Is the data flow understandable?
-- [ ] Are there redundant comments?
+- [ ] Are there redundant or outdated comments?
 - [ ] Could some comments convey the message
 better?
 - [ ] Would more comments make the code more
 understandable?
 - [ ] Could some comments be removed by making the code itself more readable?
-- [ ] Is there any commented out code?
+- [ ] Is there any commented-out code?
 
 ## Experts' Opinion
 - [ ] Do you think a specific expert, like a security
 expert or a usability expert, should look over
-the code before it can be committed?
-- [ ] Will this code change impact different teams?
-- [ ] Should they have a say on the change as
-well?
+the code before it can be accepted?
+- [ ] Will this code change impact different teams, and should they review the change as well?
 
 Find more about code reviews at www.awesomecodereviews.com
