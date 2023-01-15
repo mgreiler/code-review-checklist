@@ -47,8 +47,8 @@ information like keys, passwords, or usernames?
 checked for security issues?
 
 ## Performance
-- [ ] Do you think this code change will impact
-system performance in a negative way?
+- [ ] Do you think this code change decreases
+system performance?
 - [ ] Do you see any potential to improve the
 performance of the code significantly?
 
