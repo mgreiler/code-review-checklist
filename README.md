@@ -115,4 +115,4 @@ expert or a usability expert, should look over
 the code before it can be accepted?
 - [ ] Will this code change impact different teams, and should they review the change as well?
 
-Find more about code reviews at www.awesomecodereviews.com
+For more insights into code reviews go to [awesomecodereviews.com](https://www.awesomecodereviews.com/).
