@@ -82,7 +82,6 @@ AI  or machine learning bias?
 
 ## Testing and Testability
 - [ ] Is the code testable?
-- [ ] Has the code change
 - [ ] Have automated tests been added, or have related ones been updated to cover the change?
 - [ ] Do the existing tests reasonably cover the code change (unit/integration/system tests)? 
 - [ ] Are there some test cases, input or edge cases
