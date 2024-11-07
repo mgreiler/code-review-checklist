@@ -115,3 +115,5 @@ the code before it can be accepted?
 - [ ] Will this code change impact different teams, and should they review the change as well?
 
 For more insights into code reviews go to [awesomecodereviews.com](https://www.awesomecodereviews.com/).
+
+Also check out: [AI powered Code Review tools](https://www.codeant.ai/blogs/best-ai-code-review-tools-for-developers)
