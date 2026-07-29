@@ -29,8 +29,11 @@ written in a way that allows for easy
 debugging?
 
 ## Dependencies
-- [ ] Were updates to documentation, configuration, or readme files made as required by this change?
-- [ ] Are there any potential impacts on other parts of the system or backward compatibility?
+- [ ] Are new or updated dependencies necessary?
+- [ ] Are package names, publishers, sources, and versions correct and supported?
+- [ ] Were lockfiles updated, and were known vulnerabilities and license constraints checked?
+- [ ] Were updates to documentation, configuration, or README files made as required by this change?
+- [ ] Are there any potential impacts on other parts of the system, public APIs, data formats, or backward compatibility?
 
 ## Security and Data Privacy
 - [ ] Does the code introduce any security vulnerabilities?
