@@ -95,6 +95,11 @@ that should be tested in addition?
 - [ ] Which parts were confusing to you and why?
 - [ ] Can the readability of the code be improved by
 smaller methods?
+- [ ] Are functions or methods longer than ~50 lines?
+If so, can they be decomposed into smaller, named pieces?
+- [ ] Is any block of logic nested more than 3 levels
+deep? If so, can it be flattened (early returns, guard
+clauses) or extracted into a helper?
 - [ ] Can the readability of the code be improved by
 different function, method or variable names?
 - [ ] Is the code located in the right
