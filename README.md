@@ -48,6 +48,17 @@ information securely handled and stored?
 information like keys, passwords, or usernames?
 - [ ] Is data retrieved from external APIs or libraries
 checked for security issues?
+- [ ] Are third-party dependencies pinned, with lock files committed,
+and is dependency provenance verifiable (signatures, hashes, audited sources)?
+- [ ] Is security-relevant activity logged in a way that supports
+incident investigation — auth events, access denials, configuration
+changes — without including the credentials themselves?
+- [ ] Do error messages or exception traces avoid leaking sensitive
+information (stack traces, internal paths, query fragments, partial
+secrets) to end users?
+- [ ] Is deserialization of untrusted input avoided, or strictly
+typed and validated? Unsafe deserialization is a common remote-code-
+execution vector.
 
 ## Performance
 - [ ] Do you think this code change decreases
